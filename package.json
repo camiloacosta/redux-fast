@@ -3,6 +3,7 @@
   "description": "",
   "devDependencies": {
     "@types/redux": "^3.6.0",
+    "standard-version": "^8.0.0",
     "typescript": "^3.9.5"
   },
   "license": "ISC",
@@ -10,7 +11,8 @@
   "name": "redux-fast",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "release": "standard-version"
   },
   "types": "dist/index.d.ts",
   "version": "0.0.1"
