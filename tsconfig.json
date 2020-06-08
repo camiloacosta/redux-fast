@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["ES2018", "DOM"],
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "es5"
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["dist/**/*"]
+}
